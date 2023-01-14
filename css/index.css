@@ -1,1 +1,143 @@
+body {
+    margin: 0px;
+}
 
+.wall {
+    width: 800px;
+    height: auto;
+    margin: auto;
+    background: white;
+    position: center;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;   
+}
+
+.add_note {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.note {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+    width: 80%;
+    height: 30px;
+    display: inline-block;
+    border: 2px solid #2941b6;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
+    resize: none;
+}
+
+.message {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 80%;
+    height: 100px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 2px solid #2941b6;
+    border-radius: 20px;
+    background: #ffffff;
+    padding-left: 10px;
+    padding-right: 20px;
+    resize: none;
+}
+
+.btn_add_note {
+    background-color: #FFFFFF;
+    border: 2px solid #2941b6;
+    color: #000000;
+    position: relative;
+    left: 50%;
+    transform: translate(-100%, 0);
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.comment {
+    width: 80%;
+    left: 50%;
+    transform: translate(9%, 0);
+    padding: 16px 20px;
+    padding-left: 20px;
+    margin-bottom: 4px;
+    display: inline-block;
+    border: 2px solid #2941b6;
+    background: #FFFFFF;
+    border-radius: 10px;
+    word-break: break-all;
+}
+
+.name {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.like {
+    position: relative;
+    right: 10px;
+    width: 15%;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.img {
+    width: 50%;
+}
+
+.four {
+    padding: 50px 20px;
+    text-align: center;
+}
+.four h1 {
+    font-family: 'Merriweather', serif;
+    position: relative;
+    color: #2941b6;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 8px 20px 7px 20px;
+    border-top: 4px solid;
+    border-left: 4px solid;
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+}
+.four h1:before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: -28px;
+    left: -28px;
+    border: 4px solid #2941b6;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+@media (max-width: 450px) {
+    .four h1 {font-size: 36px;}
+    .four h1:before {
+        width: 20px;
+        height: 20px;
+        top: -20px;
+        left: -20px;
+    }
+}
